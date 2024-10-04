@@ -1,0 +1,103 @@
+Day-03[04-10-2024]:
+===================
+	Good Morning All...
+
+	Data Structures:
+	----------------
+		- To organise the data in order or unorder format
+		- List
+		- Tuple
+		- Set
+		- Dictionary
+		- String
+
+	List:
+	-----
+		- It can be represented as [] and seperated with , values
+		- It can changes a value
+		- It stores data in ordered format
+		- It allows duplicate values
+		- Slicing can be done because of index
+		- It stores all data type values
+		- It can be typecasted as list()
+
+	Tuple:
+	------
+		- It can be represented as () and seperated with , values
+		- It stores data in ordered format
+		- It allows all data type values
+		- It allows duplicate values
+		- It can be type casted as tuple()
+		- Slicing can be done because of index
+		- It can't changes a value
+
+	Set:
+	----
+		- It can be represeted as {} with some value in it
+		- It stores data in unordered format and ordering in kernel
+		- It doesnt allows duplicate values
+		- It can be type casted as set()
+		- It stores all data type values
+		- Slicing can't be done because of no index
+		- It can changes a value
+
+	Dictionary:
+	-----------
+		- It stores data in key and value pairs
+		- It can be represented as empty {} by default it is a dictionary
+		- It can be type casted as dict()
+		- Slicing can be done by using their methods
+		- Keys can't be duplicate but values can stores duplicate items
+		- It allows all data type values
+		- It stores data in ordered format with key and value pairs
+
+	Functions:
+	==========
+		- Block of statements to perform a specific task
+		- To break a complex problem statement into modules to perform a better solution
+		Syntax:
+		    def functionname(arguments):
+		        //statements
+		        return return_value
+		- 2 Types
+		    => Predefined => Work is already fixed
+		    => User Defined => User need to fix a task
+	User Defined Functions:
+	=======================
+		- with returntype and with arguments
+		- with returntype and without arguments
+		- without returntype and with arguments
+		- without returntype and without arguments
+	
+	With returntype and with arguments:
+	-----------------------------------
+		Reading => Main
+		Printing => Main
+		Logic => Function
+
+	With returntype and without arguments:
+	--------------------------------------
+		Reading => Function
+		Printing => Main
+		Logic => Function
+
+	Without returntype and with arguments:
+	--------------------------------------
+		Reading => Main
+		Printing => Function
+		Logic => Function
+
+	Without returntype and without arguments:
+	-----------------------------------------
+		Reading => Function
+		Printing => Function
+		Logic => Function
+
+	Function Argument Types:
+	========================
+		- Default 
+		- Keyword
+		- Required or Positional
+		- Variable Length
+		    - Arbitary Positional
+		    - Arbitary Keyword 

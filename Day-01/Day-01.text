@@ -1,0 +1,241 @@
+Day-01[02-10-2024]:
+===================
+	Good Morning All..
+
+	Python Versions:
+	----------------
+		- Python 2.x [Older Version]
+		- Python 3.x [Latest Version]
+
+	Python Downloads:
+	=================
+	> Open browser and search for "python.org" at first it displays "https://python.org" click on the link to proceed for the site
+	> It displays some options in navbar we need to place a cursor on "Downloads" and it diplays some other dropdown options like to select operating systems such as "windows,all,mac and linux etc.,"
+	> We need to select the operating system then it navigates to another page for selecting the releases
+	> In Python we can observe 2 versions such as
+		- python 2.x
+		- python 3.x
+		We use python 3.x because some of the packages and modules are predefined in it but not in python 2.x 
+	> In that page it will displays 2 releases such as
+		- Stable Release [Developed for users purpose]
+		- Pre Release [Still need to develop it is for developers purpose]
+	> If we need to download particular version of python like python 3.7 or 3.8 we need to search in browser for that we need to press "cntrl + f" and need to search as "python 3.x" etc., based on your requirement
+	> It displays some options in it but we need to select on stable release only.
+		- help file
+		- x86-64 embedded zip file
+		- x86-64 executeable file
+		- x86-64 web based installer
+		- x86 embedded zip file
+		- x86 executeable file
+		- x86 web based installer
+		** help file => Based on developers help it will run the codes
+		** embedded zip file => Already installed files so those files are compressed to use in systems without installation on your systems
+		** executeable => Only for windows users to install in your local systems
+		** web based installer => It can be installed through internet and downloads will be upgraded for each time if the updates are done for it. 
+	> In these options first we need to check system bit type either 32 or 64 bit operating system. If it is 64 then we need to download "windows x86-64 executeable installer" if 32 then we need to download "windows x86 executeable installer". Windows software extensions will be either ".exe or .msi" files.
+	> Click on the selected files based on your system bit then it will downloads the software in your local system.
+
+	Python Installation:
+	====================
+	> After Downloading the python software we need to double tap on it then and ask permissions to allow the software to install in your local system we need to tap "yes" to proceed for it.
+	> It will displays 2 options and 2 checkboxes such as
+		2 checkboxes:
+		=============
+			- Install for all users
+			- Add python 3.x to path
+			> For all users we need to access python then we need to check first option
+			> We need to set a path by default in environment variable path then we need to select this option. If not then it displays an error in "command prompt" while accessing python
+
+		2 options:
+		==========
+			- install now [Default path]
+			- customize installation [User selected path]
+		> While clicking on "install now" by default it automatically allocates to the path such as "c:/users/username/AppData/Local/Programs/Python/Python3x/".
+			Here python will be installed if we select this option while installing it
+		> Custom installation is user defined location path like c drive or d drive or etc., in that location the python will be installed but we need to select the "Add python 3.x to path" if not the python interpreter will not work in command prompt
+
+	Python Version Check or Checking whether it is installed in local machine or not?
+
+	Python Check:
+	=============
+	> open cmd(command prompt) then type the command to check it.
+			=> python -V
+	> If it is installed properly and set path then it will displays the version of it
+
+	Python Errors occurred in command prompt:
+	=========================================
+		> If python is not installed
+		> Using two or more versions
+		> If python path is not set in environment variable path
+
+	Pip:
+	====
+	> Pip is used to install third party packages related to python such as jupyter notebook,numpy,pandas,matplotlib and some machine learning packages
+	> First we need to check the pip version by using the command in command prompt such as
+		=> pip -V
+	> To install jupyter notebook we need to open the command prompt then we need to type the command such as
+		Syntax:
+		-------
+			- cmd
+			- pip install <packagename>
+
+	Pip Upgrade:
+	============
+	> open command prompt and then need to type command such as
+		=> python -m pip install --upgrade pip
+		It will upgrades the pip from lower version to updated version
+	> After upgrading the pip we need to install the jupyter notebook again because the latest packages and libraries will be update to loca system
+
+	Jupyter notebook:
+	=================
+		- cmd
+		- pip install jupyter notebook
+	> To run python files in jupyter notebook first we need to install jupyter or else we can install anaconda software or vscode or pycharm. In anaconda it exists some python library and packages related to it. In pycharm and vscode the extension will be accessed
+	> Jupyter notebook will be installed by using pip command
+
+	Running of Jupyter notebook:
+	============================
+		- cmd
+		- jupyter notebook
+
+	Python Execution Ways:
+	======================
+		- Basic Procedure
+		- Advanced Editor
+		- IDLE
+		- Jupyter Notebook
+
+	Basic Procedure:
+	================
+	> Using Notepad and Interpreter [It is to be installed in your local systems]
+	> Open Notepad and save the file as "filename.py" we need to save the python files with .py extension by user defined locations such as [Desktop,c drive or d drive etc.,]
+	> After saving the file with some content then we need to open the file location which file is to be executed by using command prompt.
+	> We can open the command prompt where python file exists. First we need to open the location of python file in file explorer and at top we can observe the path for which folder we are navigating there we need to clear all path and type "cmd" then command prompt will be opened where the python file exists.
+	> To execute the python file in command prompt we need to type the command such as
+		=> filename.py
+			If the file is not executed then we need to mention the interpreter name because by default in local systems the python file is opened in another editors so it can't execute the python file.
+		=> python filename.py
+			Then it executes the python file
+
+	Advanced Editors:
+	=================
+	> To execute python files we can use Advanced Editors such as Geany,sublime,atom,editplus and Notepad++, etc.,
+	> In these editors each and every editor has different shortcuts to execute python file
+	> First we need to write some content in a file here we can use template or else we can code by our own syntax and after code completio we need to save the file in a particular location where user can defined
+	> After completion of code we need to execute the code by editor shortcuts here the output will be displayed in command prompt.
+
+	IDLE:
+	=====
+	IDLE -> Integrated Development Learning Environment
+	IDE -> Integrated Development Environment
+	> IDLE can be installed by default while installing the python software
+	> Here we can execute the python code in 2 ways they are
+		=> Scripting [Permanent way by storing the code in a file]
+		=> Interactive [Temporary in shell for debugging purposes] 
+	> If we need to use scripting mode then we need to open idle and in menu we can observe file. In that we can select new file and then we needto save the file if we press "cntrl + s" it displays a window to select the location where we need to store the file
+	> By default in saving window it will displays the python installed location we should not save our python files becuase in future the python interpreter will not work due to unwanted files are saved in installed location
+	> We need to change the location of saving file where user can be defined we need to save the file with only filename because by default the file will saves as python file because the file is opened through python shell
+	> After saving we need to code then the file can be executed by clicking on run option existing in top of the file. We can use the shortcut to execute such as "f5"
+	> It will displays the output in a shell
+
+	Jupyter Notebook:
+	=================
+	> To run python files in jupyter notebook first we need to install jupyter or else we can install anaconda software or vscode or pycharm. In anaconda it exists some python library and packages related to it. In pycharm and vscode the extension will be accessed
+	> Jupyter notebook will be installed by using pip command
+	
+	Jupyter notebook running:
+	=========================
+	> open command prompt and then we need to type the command such as 
+		=> jupyter notebook
+		It will runs the server and opens jupyter notebook in default browser with tree structure of a folders and files in a local system
+
+	Jupyter Notebook = Literate Programming
+	Literate Programming => Coding + Documentation
+
+	Commands used in Jupyter notebook:
+	==================================
+		esc + m => Changes from code to markdown
+		esc + y => Changes from markdown to code
+		cntrl + enter => Executes present cell
+		shift + enter => Executes and select below
+		alt + enter => Executes and insert cell below
+		cntrl + d d => Deletes a cell
+
+	One cell = one program file code
+
+	> In Jupyter notebook it consists of 2 formats they are
+		- Coding format
+		- Markdown format
+		In these each formats it consists of 2 modes they are
+			- code mode
+			- edit mode
+
+	Variable:
+	---------
+		- To Store a value and to change a value
+		Syntax:
+			variable_name = value
+
+	Types of Variable Assignment:
+	-----------------------------
+		- Single_variable = single_value
+			Ex:
+				a = 10
+				b = "Prasad"
+		- n number of variables = n number of different types of values
+			Ex:
+				g,n,m = 150,230.01,"Lokesh"
+		- n number of variables = single value
+			Ex:
+				d = h = k = 158
+		- single_variable = n number of different types of values
+			Ex:
+				c = "56",89.12
+
+	Operators:
+	----------
+		- Arithmetic => +,-,*,/,%,floor division(//),Exponent(**)
+			** Used for Mathematical Expressions
+		- Logical => AND,OR,XOR
+			** Used in between 2 conditions
+			** Final output will be either True or False
+		- Relational => ==,!=,>,<,>=,<=
+			** Used in between the operand and value
+		- Bitwise => &&,||,!,>>,<<
+			** Used in between 2 conditions
+			** Final output will be value
+		- Assignment => +=,-=,/=,*=,%=,//=,**=
+			** Used in Inner Loops or else in an expression
+		- Membership => in,not in
+			** Used in an iterators
+		- Identity => is, is not
+			** Used in strings to compare the address of a character or a string
+
+	Data Types:
+	-----------
+		- int => only integer values
+		- float => only integer and decimal values
+		- string => enclosed with ' or "
+		- boolean => either True or False
+		- complex => real and imaginary values
+		- All Data Structures like [list,tuple,set and dictionary]
+
+	Input Formatting:
+	-----------------
+		- It will displays the info to a user 
+		- It reads a data from a user
+		- By default it stores string data type value
+		Syntax:
+			variablename = input("info to a user")
+		Ex:
+			a = input("Enter a value: ")
+
+	Output Formatting:
+	------------------
+		- , +
+		- format specifiers (% -> no need of () for single variable)
+							(%d -> integer, %s -> string, %f -> float)
+		- .format
+		- f string
+
+

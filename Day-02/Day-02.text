@@ -1,0 +1,122 @@
+Day-02[03-10-2024]:
+===================
+	Good Morning All...
+
+	TypeCasting:
+	------------
+		- To change from one data type of value to another data type value
+		- int()
+		- float()
+		- str()
+		- bool()
+		- complex()
+		- All data structures like [list(),set(),tuple(),dict()]
+
+	Conditional Statements:
+	-----------------------
+        - To check whether a given condition is either True or False
+        - if => single case
+        - if-else => two cases
+        - nested if => 3 or more cases
+        - elif => 3 or more but based on preferences
+
+    If:
+    ---
+    	Syntax:
+    		if condition:
+    			//statements
+    	Note: () is optional
+	
+	If-else:
+    --------
+    	Syntax:
+    		if condition:
+    			//statements [True]
+    		else:
+    			//statements [False]
+    	Note: () is optional based on condition the statement will be executed   
+
+    elif ladder:
+    ------------
+    	Syntax:
+    		if condition-1:
+    			//statement-1
+    		elif condition-2:
+    			//statement-2
+    			|        |
+    		elif condition-n:
+    			//statement-(n)
+    		else:
+    			//statement-(n-2)
+    	Note: () is optional
+    
+    Nested if:
+    ----------
+    	Syntax:
+    		if condition-1:
+    			if condition-2:
+    				//statement-1
+    			else:
+    				//statement-2
+    		else:
+    			//statement-n
+    	Note: () is optional inside of if we can define if or if else or nested if or elif its based on requirement we need to prefer
+
+    Loops or Iterations or Repitions:
+    ---------------------------------
+    	- To control the flow of execution untill the condition is false
+    	- for => For particular range
+    	- while => for known and unknown ranges
+
+    For
+	---
+		Syntax:
+		    for iterationvariablename in range(start,stop,step):
+		        //statements
+		                        or
+		    for iterationvariablename in iterator:
+		        //statements
+		    
+		    Iterators: List,tuple,string,set and dictionary
+	range:
+	------
+	Syntax:
+		- range(stop):
+		    - By default it starts with 0
+		    - It increments with +1 value
+		    - It stops with stop-1 value
+		    Ex: range(5)
+		        0 1 2 3 4
+		- range(start,stop):
+		    - It starts exactly with start value
+		    - It increments with +1 value
+		    - It stops with stop-1 value
+		    Ex: range(1,6)
+		        1 2 3 4 5
+		- range(start,stop,step):
+		    - It starts exactly with start value
+		    - It increments/decrements with step value
+		    - It stops with stop-1 value
+		    Ex: range(1,10,3)
+		        1 4 7
+
+	While:
+	------
+		Syntax:
+		    variableinitialisation
+		    while condition:
+		        //statements
+		        incr/decr
+
+	Jumping Statements:
+	-------------------
+	=> These statements can be used in inside of loops with a conditional statements
+		- break => To exit from a loop
+		- continue => It skips a value and executes entire loop
+		- pass => same as continue but for future enhancements we prefere pass for implementing different logic
+		- return => It is used in function and returns single or multiple values
+
+	Nested or Inner Loop:
+	---------------------
+		- Loop within a Loop
+
